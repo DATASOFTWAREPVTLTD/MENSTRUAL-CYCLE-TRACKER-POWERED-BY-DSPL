@@ -1,0 +1,315 @@
+//WEB PAGE POWERED BY DATA SOFTWARE DSPL
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DSPL MCT TEST FOR WOMENS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DSPL</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>WEB PAGE POWERED BY DSPL</h1>
+      <img src="MCTDSPL.jpg" alt="Logo" class="logo">
+      <form>
+        <!-- Form fields -->
+      </form>
+      
+      <!-- Output section -->
+      <div class="output">
+        <!-- Output table -->
+      </div>
+  
+      <!-- Image section -->
+      <img src="MCT.jpg" alt="Image" class="image">
+    </div>
+  </body>
+  </html>
+
+
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>DSPL</title>
+        <style>
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #FF1493;
+}
+
+.logo {
+  width: 350px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 700px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Rest of the CSS styles for form and output section */
+
+
+
+
+
+          body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+            color: #333;
+          }
+          
+          .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f7f7f7;
+          }
+          
+          h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #e74c3c;
+          }
+          
+          form {
+            display: inline-block;
+            text-align: left;
+          }
+          
+          label {
+            display: block;
+            margin-bottom: 10px;
+            color: #3498db;
+          }
+          
+          input[type=text], input[type=number], input[type=date], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+          
+          input[type=button] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=button]:hover {
+            background-color: #45a049;
+          }
+          
+          #result {
+            margin-top: 40px;
+            text-align: left;
+          }
+          
+          .output {
+            margin-top: 40px;
+            text-align: left;
+          }
+          
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+          }
+          
+          th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+          }
+          
+          th {
+            background-color: #3498db;
+            color: white;
+          }
+          
+          #alert {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            display: none;
+          }
+          
+          #alert p {
+            margin: 0;
+          }
+          
+        </style>
+      </head>
+      <body>
+        
+
+
+
+	<div class="container">
+		<h1>MENSTRUAL CYCLE TRACKER POWERED BY DSPL </h1>
+		<form>
+			<label for="name" style="color: #FF1493">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="age" style="color: #FF1493">Age:</label>
+			<input type="number" id="age" name="age" required>
+
+			<label for="lastPeriod" style="color: #FF1493">Last Period:</label>
+			<input type="date" id="lastPeriod" name="lastPeriod" required>
+
+			<label for="cycleLength" style="color: #00BFFF">Regular Periods: Cycle Length (in days):</label>
+			<input type="number" id="cycleLength" name="cycleLength" required>
+
+			<label for="periodLength" style="color: #00BFFF">Period Length (in days):</label>
+			<input type="number" id="periodLength" name="periodLength" required>
+
+			<label for="bloodFlow" style="color: #00BFFF">Blood Flow:</label>
+			<select id="bloodFlow" name="bloodFlow" required>
+				<option value="">Select an option</option>
+				<option value="high">High</option>
+				<option value="medium">Medium</option>
+				<option value="low">Low</option>
+			</select>
+
+			<label for="healthyDiet" style="color: #FFA07A">Have you taken a healthy diet?:</label>
+			<select id="healthyDiet" name="healthyDiet" required>
+				<option value="">Select an option</option>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+
+			<label for="exercise" style="color: #FFA07A">Have you done exercise?:</label>
+			<select id="exercise" name="exercise" required>
+				<option value="">Select an option</option>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+
+			<label for="hotWater" style="color: #FFA07A">Have you drunk hot water?:</label>
+			<select id="hotWater" name="hotWater" required>
+				<option value="">Select an option</option>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+
+			<input type="button" value="Submit" onclick="calculatePeriod()">
+
+		</form>
+
+		<div class="output">
+			<h2>Period Information</h2>
+			<table>
+				<tr>
+					<th>Next Period Date:</th>
+					<td id="nextPeriodDate"></td>
+				</tr>
+				<tr>
+					<th>Period Health:</th>
+					<td id="periodHealth"></td>
+				</tr>
+				<tr>
+					<th>Most Active Cramp Time:</th>
+					<td id="crampTime"></td>
+				</tr>
+				<tr>
+					<th>Ovulation Date:</th>
+					<td id="ovulationDate"></td>
+                </tr>
+                </table>
+                </div>
+
+                <script>
+                    function calculatePeriod() {
+                        // Retrieve form values
+                        let name = document.getElementById("name").value;
+                        let age = document.getElementById("age").value;
+                        let lastPeriod = document.getElementById("lastPeriod").value;
+                        let cycleLength = document.getElementById("cycleLength").value;
+                        let periodLength = document.getElementById("periodLength").value;
+                        let bloodFlow = document.getElementById("bloodFlow").value;
+                        let healthyDiet = document.getElementById("healthyDiet").value;
+                        let exercise = document.getElementById("exercise").value;
+                        let hotWater = document.getElementById("hotWater").value;
+            
+                        // Calculate next period date and ovulation date
+                        let lastPeriodDate = new Date(lastPeriod);
+                        let ovulationDate = new Date(lastPeriodDate.getTime() + ((cycleLength - 14) * 86400000));
+                        let nextPeriodDate = new Date(lastPeriodDate.getTime() + (cycleLength * 86400000));
+            
+                        // Calculate period health and most active cramp time
+                        let periodHealth = "";
+                        let crampTime = "";
+                        if (bloodFlow === "high") {
+                            periodHealth = "Poor";
+                            crampTime = "First 2-3 days";
+                        } else if (bloodFlow === "medium") {
+                            periodHealth = "Good";
+                            crampTime = "First day";
+                        } else if (bloodFlow === "low") {
+                            periodHealth = "Excellent";
+                            crampTime = "No cramps";
+                        }
+            
+                        // Display results in HTML table
+                        document.getElementById("nextPeriodDate").innerHTML = nextPeriodDate.toDateString();
+                        document.getElementById("periodHealth").innerHTML = periodHealth;
+                        document.getElementById("crampTime").innerHTML = crampTime;
+                        document.getElementById("ovulationDate").innerHTML = ovulationDate.toDateString();
+            
+                        // Set alert for next period date
+                        let now = new Date();
+                        let timeDiff = nextPeriodDate.getTime() - now.getTime();
+                        let daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                        alert("Your next period is in " + daysDiff + " days.");
+                    }
+                </script>
+            </div>
+
+            
+        </body>
+        </html>
+
+        //WEB PAGE POWERED BY DSPL
