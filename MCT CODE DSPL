@@ -1,4 +1,4 @@
-//WEB PAGE POWERED BY DSPL
+//WEB PAGE POWERED BY DATA SOFTWARE DSPL
 
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,7 @@
   <body>
     <div class="container">
       <h1>WEB PAGE POWERED BY DSPL</h1>
-      <img src="C:\Users\MRUDI\Downloads\MCTDSPL.jpg" alt="Logo" class="logo">
+      <img src="MCTDSPL.jpg" alt="Logo" class="logo">
       <form>
         <!-- Form fields -->
       </form>
@@ -30,7 +30,7 @@
       </div>
   
       <!-- Image section -->
-      <img src="C:\Users\MRUDI\Downloads\MCT.jpg" alt="Image" class="image">
+      <img src="MCT.jpg" alt="Image" class="image">
     </div>
   </body>
   </html>
